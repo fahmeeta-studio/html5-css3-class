@@ -9,6 +9,16 @@
     </head>
 
     <body>
+        <header>
+            <p>Semantic HTML</p>        
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="kitchen-sink.html">Kitchen sink</a></li>
+                    <li><a href="semantic-markup.html">Semantic page</a></li>
+                </ul>
+            </nav>
+        </header>
         <h1>Kitchen sink</h1>
         <h2>Heading 2</h2>
         <h3>Heading 3</h3>
@@ -37,10 +47,46 @@
 
         <nav>
             <ul>
-                <li><a href="https://fahmeeta-studio.github.io/html5-css3-class/index">Home Page</a> </li>
-                <li><a href="https://extension.berkeley.edu/">UC Berkeley Extension Site</a> </li>
+                <li><a href="index.html">Home Page</a> </li>
+                <li><a href="https://extension.berkeley.edu/" target="_blank">UC Berkeley Extension Site</a> </li>
             </ul>
         </nav>
+
+        <a href="https://google.com">Link to google</a>
+        <a href="https://yahoo.com" target="_blank">Link to yahoo!</a>
+
+        <!--This is an internal image-->
+        <img src="./assets/images/coconuts.jpeg"/>
+        
+        <!--This is an external image-->
+        <img src="http://placehold.it/300x300"/>
+
+        <style>
+            table, th, td { 
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+
+            th, td {
+                padding: 15px;
+            }
+        </style>
+        <table>
+            <thead>
+                <th>Header one</th>
+                <th>Header two</th>
+                <th>Header three</th>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Table cell one</td>
+                    <td>Table cell two</td>
+                    <td>Table cell three</td>
+                </tr>
+            </tbody>
+        </table>
+
 
     </body>
 
