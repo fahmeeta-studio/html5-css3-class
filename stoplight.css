@@ -1,0 +1,65 @@
+.stoplight-container {
+  background: darkgray;
+  width: 300px;
+  height: auto;
+  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.light {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  border: 5px solid black;
+  /* center align each light and add a margin bottom */
+  border-radius: 50%;
+  /*   make the lights a circle */
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+}
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.stoplight-container {
+  background: darkgray;
+  width: 300px;
+  height: auto;
+  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.light {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  border: 5px solid black;
+  /* center align each light and add a margin bottom */
+  border-radius: 50%;
+  /*   make the lights a circle */
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+}
+.red-light {
+  background-color: rgba(255, 0, 0, 0.25);
+}
+/* red-light on hover should be 100% red */
+.red-light:hover {
+  background-color: red;
+}
+.yellow-light {
+  background-color: rgba(255, 255, 0, 0.25);
+}
+/* yellow-light on hover should be 100% yellow */
+.yellow-light:hover {
+  background-color: yellow;
+}
+.green-light {
+  background-color: rgba(0, 255, 0, 0.25);
+}
+/* green-light on hover should be 100% green */
+.green-light:hover {
+  background-color: green;
+}
